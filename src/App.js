@@ -9,13 +9,13 @@ const styles = {
 
 class App extends Component {
   state = {
-    backgroundColor: null,
+    color: null,
     fontWeight: null,
     fontStyle: null,
     textDecorationLine: null
   };
   selectColor = color => {
-    this.setState({ backgroundColor: color });
+    this.setState({ color: color });
   };
 
   selectStyle = style => {
